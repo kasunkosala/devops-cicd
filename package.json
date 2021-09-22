@@ -1,17 +1,21 @@
 {
-    "name": "demo",
-    "version": "1.0.0",
-    "description": "",
-    "main": "app.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node app.js",
-      "dev": "nodemon app.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.17.1",
-      "nodemon": "^2.0.12"
-    }
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --reporter list",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1",
+    "three": "^0.132.2"
   }
+}
